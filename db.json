@@ -32,6 +32,7 @@
     { "id": 3, "reference": "U2", "propriete": "Studio Plateau", "type": "STUDIO", "loyerMensuel": 180000, "statut": "LIBRE" }
   ],
   "contratsLocation": [],
+  "attributionsBien": [],
   "paiements": [],
   "cautions": [],
   "visites": [],
