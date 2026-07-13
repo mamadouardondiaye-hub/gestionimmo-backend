@@ -1,0 +1,14 @@
+{
+  "name": "gestionimmo-backend",
+  "version": "0.1.0",
+  "description": "API REST fictive pour GestionImmo (JSON Server)",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
