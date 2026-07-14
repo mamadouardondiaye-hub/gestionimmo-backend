@@ -19,7 +19,7 @@
     { "id": 1, "utilisateurId": 2, "nom": "Faye", "prenom": "Aminata", "telephone": "770000002", "email": "comptable@gestionimmo.sn", "adresse": "Mermoz, Dakar", "statut": "ACTIF" }
   ],
   "agentsTerrain": [
-    { "id": 1, "utilisateurId": 4, "nom": "Sy", "prenom": "Ousmane", "telephone": "770000004", "email": "agent@gestionimmo.sn", "zoneCouverture": "Dakar — Almadies / Ngor", "statut": "ACTIF" }
+    { "id": 1, "utilisateurId": 4, "nom": "Sy", "prenom": "Ousmane", "telephone": "770000004", "zoneCouverture": "Dakar — Almadies / Ngor", "statut": "ACTIF" }
   ],
   "proprietes": [
     { "id": 1, "nom": "Villa Almadies", "adresse": "Route des Almadies, Dakar", "bailleurId": 1, "type": "VILLA_INDIVIDUELLE", "statut": "ACTIF" },
@@ -27,8 +27,8 @@
     { "id": 3, "nom": "Studio Plateau", "adresse": "Plateau, Dakar", "bailleurId": 1, "type": "IMMEUBLE", "statut": "ACTIF" }
   ],
   "unitesLocatives": [
-    { "id": 1, "reference": "U3", "propriete": "Villa Almadies", "type": "APPARTEMENT_F4", "loyerMensuel": 450000, "statut": "OCCUPE" },
-    { "id": 2, "reference": "U1", "propriete": "Résidence Sacré-Cœur", "type": "APPARTEMENT_F3", "loyerMensuel": 275000, "statut": "OCCUPE" },
+    { "id": 1, "reference": "U3", "propriete": "Villa Almadies", "type": "APPARTEMENT_F4", "loyerMensuel": 450000, "statut": "LIBRE" },
+    { "id": 2, "reference": "U1", "propriete": "Résidence Sacré-Cœur", "type": "APPARTEMENT_F3", "loyerMensuel": 275000, "statut": "LIBRE" },
     { "id": 3, "reference": "U2", "propriete": "Studio Plateau", "type": "STUDIO", "loyerMensuel": 180000, "statut": "LIBRE" }
   ],
   "contratsLocation": [],
