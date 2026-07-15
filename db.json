@@ -1,35 +1,194 @@
 {
   "utilisateurs": [
-    { "id": 1, "nom": "Diallo", "prenom": "Cheikh", "email": "gestionnaire@gestionimmo.sn", "motDePasse": "test1234", "role": "GESTIONNAIRE", "telephone": "770000001", "statut": "ACTIF" },
-    { "id": 2, "nom": "Faye", "prenom": "Aminata", "email": "comptable@gestionimmo.sn", "motDePasse": "test1234", "role": "COMPTABLE", "telephone": "770000002", "statut": "ACTIF" },
-    { "id": 3, "nom": "Diagne", "prenom": "Awa", "email": "locataire@gestionimmo.sn", "motDePasse": "test1234", "role": "LOCATAIRE", "telephone": "770000003", "statut": "ACTIF" },
-    { "id": 4, "nom": "Sy", "prenom": "Ousmane", "email": "agent@gestionimmo.sn", "motDePasse": "test1234", "role": "AGENT_TERRAIN", "telephone": "770000004", "statut": "ACTIF" },
-    { "id": 5, "nom": "Ndour", "prenom": "Ibrahima", "email": "bailleur@gestionimmo.sn", "motDePasse": "test1234", "role": "BAILLEUR", "telephone": "770000005", "statut": "ACTIF" }
+    {
+      "id": 1,
+      "nom": "Diallo",
+      "prenom": "Cheikh",
+      "email": "gestionnaire@gestionimmo.sn",
+      "motDePasse": "test1234",
+      "role": "GESTIONNAIRE",
+      "telephone": "770000001",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 2,
+      "nom": "Faye",
+      "prenom": "Aminata",
+      "email": "comptable@gestionimmo.sn",
+      "motDePasse": "test1234",
+      "role": "COMPTABLE",
+      "telephone": "770000002",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 3,
+      "nom": "Diagne",
+      "prenom": "Awa",
+      "email": "locataire@gestionimmo.sn",
+      "motDePasse": "test1234",
+      "role": "LOCATAIRE",
+      "telephone": "770000003",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 4,
+      "nom": "Sy",
+      "prenom": "Ousmane",
+      "email": "agent@gestionimmo.sn",
+      "motDePasse": "test1234",
+      "role": "AGENT_TERRAIN",
+      "telephone": "770000004",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 5,
+      "nom": "Ndour",
+      "prenom": "Ibrahima",
+      "email": "bailleur@gestionimmo.sn",
+      "motDePasse": "test1234",
+      "role": "BAILLEUR",
+      "telephone": "770000005",
+      "statut": "ACTIF"
+    }
   ],
   "bailleurs": [
-    { "id": 1, "utilisateurId": 5, "nom": "Ndour", "prenom": "Ibrahima", "telephone": "770000005", "email": "bailleur@gestionimmo.sn", "adresse": "Ngor, Dakar", "pieceIdentiteType": "CNI", "pieceIdentiteNumero": "1234567890123", "statut": "ACTIF" },
-    { "id": 2, "utilisateurId": null, "nom": "Kane", "prenom": "Fatou", "telephone": "775551122", "email": "fkane@example.sn", "adresse": "Sicap Liberté, Dakar", "pieceIdentiteType": "CNI", "pieceIdentiteNumero": "9876543210987", "statut": "ACTIF" }
+    {
+      "id": 1,
+      "utilisateurId": 5,
+      "nom": "Ndour",
+      "prenom": "Ibrahima",
+      "telephone": "770000005",
+      "email": "bailleur@gestionimmo.sn",
+      "adresse": "Ngor, Dakar",
+      "pieceIdentiteType": "CNI",
+      "pieceIdentiteNumero": "1234567890123",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 2,
+      "utilisateurId": null,
+      "nom": "Kane",
+      "prenom": "Fatou",
+      "telephone": "775551122",
+      "email": "fkane@example.sn",
+      "adresse": "Sicap Liberté, Dakar",
+      "pieceIdentiteType": "CNI",
+      "pieceIdentiteNumero": "9876543210987",
+      "statut": "ACTIF"
+    }
   ],
   "locataires": [
-    { "id": 1, "utilisateurId": 3, "nom": "Diagne", "prenom": "Awa", "telephone": "770000003", "email": "locataire@gestionimmo.sn", "adresse": "Villa Almadies, U3", "pieceIdentiteType": "CNI", "pieceIdentiteNumero": "1112223334445", "statut": "ACTIF" },
-    { "id": 2, "utilisateurId": null, "nom": "Ba", "prenom": "Moussa", "telephone": "776663344", "email": "moussa.ba@example.sn", "adresse": "Résidence Sacré-Cœur, U1", "pieceIdentiteType": "CNI", "pieceIdentiteNumero": "2223334445556", "statut": "ACTIF" },
-    { "id": 3, "utilisateurId": null, "nom": "Sarr", "prenom": "Fatou", "telephone": "778889900", "email": "fatou.sarr@example.sn", "adresse": "Studio Plateau, U2", "pieceIdentiteType": "PASSEPORT", "pieceIdentiteNumero": "P0345678", "statut": "ACTIF" }
+    {
+      "id": 1,
+      "utilisateurId": 3,
+      "nom": "Diagne",
+      "prenom": "Awa",
+      "telephone": "770000003",
+      "email": "locataire@gestionimmo.sn",
+      "adresse": "Villa Almadies, U3",
+      "pieceIdentiteType": "CNI",
+      "pieceIdentiteNumero": "1112223334445",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 2,
+      "utilisateurId": null,
+      "nom": "Ba",
+      "prenom": "Moussa",
+      "telephone": "776663344",
+      "email": "moussa.ba@example.sn",
+      "adresse": "Résidence Sacré-Cœur, U1",
+      "pieceIdentiteType": "CNI",
+      "pieceIdentiteNumero": "2223334445556",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 3,
+      "utilisateurId": null,
+      "nom": "Sarr",
+      "prenom": "Fatou",
+      "telephone": "778889900",
+      "email": "fatou.sarr@example.sn",
+      "adresse": "Studio Plateau, U2",
+      "pieceIdentiteType": "PASSEPORT",
+      "pieceIdentiteNumero": "P0345678",
+      "statut": "ACTIF"
+    }
   ],
   "comptables": [
-    { "id": 1, "utilisateurId": 2, "nom": "Faye", "prenom": "Aminata", "telephone": "770000002", "email": "comptable@gestionimmo.sn", "adresse": "Mermoz, Dakar", "statut": "ACTIF" }
+    {
+      "id": 1,
+      "utilisateurId": 2,
+      "nom": "Faye",
+      "prenom": "Aminata",
+      "telephone": "770000002",
+      "email": "comptable@gestionimmo.sn",
+      "adresse": "Mermoz, Dakar",
+      "statut": "ACTIF"
+    }
   ],
   "agentsTerrain": [
-    { "id": 1, "utilisateurId": 4, "nom": "Sy", "prenom": "Ousmane", "telephone": "770000004", "zoneCouverture": "Dakar — Almadies / Ngor", "statut": "ACTIF" }
+    {
+      "id": 1,
+      "utilisateurId": 4,
+      "nom": "Sy",
+      "prenom": "Ousmane",
+      "telephone": "770000004",
+      "zoneCouverture": "Dakar — Almadies / Ngor",
+      "statut": "ACTIF"
+    }
   ],
   "proprietes": [
-    { "id": 1, "nom": "Villa Almadies", "adresse": "Route des Almadies, Dakar", "bailleurId": 1, "type": "VILLA_INDIVIDUELLE", "statut": "ACTIF" },
-    { "id": 2, "nom": "Résidence Sacré-Cœur", "adresse": "Sacré-Cœur 3, Dakar", "bailleurId": 2, "type": "IMMEUBLE", "statut": "ACTIF" },
-    { "id": 3, "nom": "Studio Plateau", "adresse": "Plateau, Dakar", "bailleurId": 1, "type": "IMMEUBLE", "statut": "ACTIF" }
+    {
+      "id": 1,
+      "nom": "Villa Almadies",
+      "adresse": "Route des Almadies, Dakar",
+      "bailleurId": 1,
+      "type": "VILLA_INDIVIDUELLE",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 2,
+      "nom": "Résidence Sacré-Cœur",
+      "adresse": "Sacré-Cœur 3, Dakar",
+      "bailleurId": 2,
+      "type": "IMMEUBLE",
+      "statut": "ACTIF"
+    },
+    {
+      "id": 3,
+      "nom": "Studio Plateau",
+      "adresse": "Plateau, Dakar",
+      "bailleurId": 1,
+      "type": "IMMEUBLE",
+      "statut": "ACTIF"
+    }
   ],
   "unitesLocatives": [
-    { "id": 1, "reference": "U3", "propriete": "Villa Almadies", "type": "APPARTEMENT_F4", "loyerMensuel": 450000, "statut": "LIBRE" },
-    { "id": 2, "reference": "U1", "propriete": "Résidence Sacré-Cœur", "type": "APPARTEMENT_F3", "loyerMensuel": 275000, "statut": "LIBRE" },
-    { "id": 3, "reference": "U2", "propriete": "Studio Plateau", "type": "STUDIO", "loyerMensuel": 180000, "statut": "LIBRE" }
+    {
+      "id": 1,
+      "reference": "U3",
+      "propriete": "Villa Almadies",
+      "type": "APPARTEMENT_F4",
+      "loyerMensuel": 450000,
+      "statut": "LIBRE"
+    },
+    {
+      "id": 2,
+      "reference": "U1",
+      "propriete": "Résidence Sacré-Cœur",
+      "type": "APPARTEMENT_F3",
+      "loyerMensuel": 275000,
+      "statut": "LIBRE"
+    },
+    {
+      "id": 3,
+      "reference": "U2",
+      "propriete": "Studio Plateau",
+      "type": "STUDIO",
+      "loyerMensuel": 180000,
+      "statut": "LIBRE"
+    }
   ],
   "contratsLocation": [],
   "attributionsBien": [],
