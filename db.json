@@ -200,6 +200,8 @@
   "bilansReversement": [],
   "visites": [],
   "rapportsVisite": [],
+  "etatsDesLieux": [],
+  "lignesEtatDesLieux": [],
   "signalements": [],
   "notifications": []
 }
