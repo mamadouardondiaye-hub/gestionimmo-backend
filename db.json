@@ -32,7 +32,8 @@
     { "id": 3, "reference": "U2", "propriete": "Studio Plateau", "type": "STUDIO", "loyerMensuel": 180000, "statut": "LIBRE" }
   ],
   "attributionsBien": [
-    { "id": 1, "uniteLocativeId": 3, "agentTerrainId": 1, "dateAttribution": "2026-07-01", "statut": "ACTIVE" }
+    { "id": 1, "uniteLocativeId": 3, "agentTerrainId": 1, "dateAttribution": "2026-07-01", "statut": "ACTIVE" },
+    { "id": 2, "uniteLocativeId": 1, "agentTerrainId": 1, "dateAttribution": "2026-06-01", "statut": "ACTIVE" }
   ],
   "contratsLocation": [
     { "id": 1, "codeContrat": "CONTRAT-2026-001", "locataireId": 1, "uniteLocativeId": 1, "loyerMensuel": 450000, "cautionEncaissee": 900000, "nombreMoisAvance": 2, "fraisDossier": 450000, "dateDebut": "2026-06-01", "dateFinPrevue": "2026-12-01", "statut": "ACTIF", "dateActivation": "2026-06-01" },
